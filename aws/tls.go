@@ -4,8 +4,8 @@ import (
 	"context"
 	"crypto/tls"
 
+	awscerts "github.com/Clip-Money-Inc/gorm-auth/aws/certs"
 	"github.com/Invicton-Labs/go-stackerr"
-	awscerts "github.com/Invicton-Labs/gorm-auth/aws/certs"
 )
 
 // GetTlsConfig will get a *tls.Config that trusts the AWS Root CAs

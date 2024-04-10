@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"regexp"
 
+	"github.com/Clip-Money-Inc/gorm-auth/connectors"
 	"github.com/Invicton-Labs/go-stackerr"
-	"github.com/Invicton-Labs/gorm-auth/connectors"
 	"github.com/aws/aws-sdk-go-v2/aws"
 	"github.com/aws/aws-sdk-go-v2/feature/rds/auth"
 	"github.com/go-sql-driver/mysql"

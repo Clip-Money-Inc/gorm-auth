@@ -5,10 +5,10 @@ import (
 	"encoding/json"
 	"time"
 
+	gormauth "github.com/Clip-Money-Inc/gorm-auth"
+	gormaws "github.com/Clip-Money-Inc/gorm-auth/aws"
+	"github.com/Clip-Money-Inc/gorm-auth/dialectors"
 	"github.com/Invicton-Labs/go-stackerr"
-	gormauth "github.com/Invicton-Labs/gorm-auth"
-	gormaws "github.com/Invicton-Labs/gorm-auth/aws"
-	"github.com/Invicton-Labs/gorm-auth/dialectors"
 	"github.com/aws/aws-sdk-go-v2/config"
 	gormmysql "gorm.io/driver/mysql"
 

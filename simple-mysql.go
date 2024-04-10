@@ -7,9 +7,9 @@ import (
 	"net/url"
 	"strings"
 
+	"github.com/Clip-Money-Inc/gorm-auth/connectors"
+	"github.com/Clip-Money-Inc/gorm-auth/dialectors"
 	"github.com/Invicton-Labs/go-stackerr"
-	"github.com/Invicton-Labs/gorm-auth/connectors"
-	"github.com/Invicton-Labs/gorm-auth/dialectors"
 	"github.com/go-sql-driver/mysql"
 	"gorm.io/gorm"
 	"gorm.io/plugin/dbresolver"

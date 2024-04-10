@@ -12,7 +12,7 @@ This package supports MySQL, and theoretically supports PostgreSQL as well, alth
 
 We have provided examples for the following use cases:
 
-- [Generic username/password MySQL](https://github.com/Invicton-Labs/gorm-auth/blob/main/examples/aws-rds-mysql-password-auth.go)
-- [AWS RDS IAM authentication for MySQL](https://github.com/Invicton-Labs/gorm-auth/blob/main/examples/aws-rds-mysql-iam-auth.go).
+- [Generic username/password MySQL](https://github.com/Clip-Money-Inc/gorm-auth/blob/main/examples/aws-rds-mysql-password-auth.go)
+- [AWS RDS IAM authentication for MySQL](https://github.com/Clip-Money-Inc/gorm-auth/blob/main/examples/aws-rds-mysql-iam-auth.go).
 
 For more custom implementations (multiple sources, multiple replicas, etc.), see the internal workings of the functions used in the examples.

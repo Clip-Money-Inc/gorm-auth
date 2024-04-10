@@ -5,7 +5,7 @@ import (
 	"database/sql/driver"
 	"time"
 
-	"github.com/Invicton-Labs/gorm-auth/connectors"
+	"github.com/Clip-Money-Inc/gorm-auth/connectors"
 	"gorm.io/gorm"
 )
 

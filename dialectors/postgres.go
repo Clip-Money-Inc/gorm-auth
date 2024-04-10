@@ -1,7 +1,7 @@
 package dialectors
 
 import (
-	"github.com/Invicton-Labs/gorm-auth/connectors"
+	"github.com/Clip-Money-Inc/gorm-auth/connectors"
 	"gorm.io/gorm"
 
 	gormpostgres "gorm.io/driver/postgres"

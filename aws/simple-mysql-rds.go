@@ -3,8 +3,8 @@ package gormaws
 import (
 	"context"
 
+	gormauth "github.com/Clip-Money-Inc/gorm-auth"
 	"github.com/Invicton-Labs/go-stackerr"
-	gormauth "github.com/Invicton-Labs/gorm-auth"
 	"github.com/aws/aws-sdk-go-v2/config"
 	"github.com/go-sql-driver/mysql"
 	"gorm.io/gorm"
