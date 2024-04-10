@@ -3,9 +3,8 @@ package connectors
 import (
 	"context"
 	"database/sql/driver"
-
 	"github.com/Invicton-Labs/go-stackerr"
-	"github.com/jackc/pgx/v4/stdlib"
+	"github.com/jackc/pgx/v5/stdlib"
 )
 
 // NewPostgresConnector will create a new driver.Connector for PostgreSQL

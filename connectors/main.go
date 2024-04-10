@@ -3,13 +3,11 @@ package connectors
 import (
 	"context"
 	"database/sql/driver"
-	"sync"
-
 	"github.com/Invicton-Labs/go-stackerr"
 	"github.com/go-sql-driver/mysql"
-
-	"github.com/jackc/pgx/v4"
-	"github.com/jackc/pgx/v4/stdlib"
+	"github.com/jackc/pgx/v5"
+	"github.com/jackc/pgx/v5/stdlib"
+	"sync"
 )
 
 // A function signature for a callback function that determines whether the connection
