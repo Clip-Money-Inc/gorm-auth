@@ -124,7 +124,6 @@ func createMysqlConfigRead(ctx context.Context) (*mysql.Config, stackerr.Error) 
 }
 
 func AwsRdsMysqlPasswordAuth(ctx context.Context) (*gorm.DB, stackerr.Error) {
-
 	gormConfig := &gorm.Config{
 		// Insert GORM general settings here
 		CreateBatchSize: 1000,

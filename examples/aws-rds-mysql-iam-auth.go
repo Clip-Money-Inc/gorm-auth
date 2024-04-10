@@ -32,7 +32,6 @@ const (
 )
 
 func AwsRdsMysqlIamAuth(ctx context.Context) (*gorm.DB, stackerr.Error) {
-
 	// Unmarshal the JSON into a struct that can be used for
 	// generating tokens.
 	var iamAuthSettings gormaws.RdsIamAuthWithReadOnly

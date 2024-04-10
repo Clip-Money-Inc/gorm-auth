@@ -30,7 +30,6 @@ func GetRdsIamMysqlGorm[AuthType authTypes](
 	ctx context.Context,
 	input GetRdsIamMysqlGormInput[AuthType],
 ) (*gorm.DB, stackerr.Error) {
-
 	var writeAuthSettings RdsIamAuth
 	var readAuthSettings RdsIamAuthWithReadOnly
 	hasReader := false
