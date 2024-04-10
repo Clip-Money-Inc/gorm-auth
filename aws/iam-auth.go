@@ -12,9 +12,7 @@ import (
 	"github.com/go-sql-driver/mysql"
 )
 
-var (
-	rdsHostRegionRegexp *regexp.Regexp = regexp.MustCompile(`^[^.]+\.[^.]+\.([a-z]+-[a-z]+-[0-9]+)\.rds\.amazonaws\.com$`)
-)
+var rdsHostRegionRegexp *regexp.Regexp = regexp.MustCompile(`^[^.]+\.[^.]+\.([a-z]+-[a-z]+-[0-9]+)\.rds\.amazonaws\.com$`)
 
 // RdsIamAuth is a struct that contains all of the information necessary
 // for connecting to an AWS RDS cluster with IAM authentication. You
@@ -41,7 +39,6 @@ type RdsIamAuth struct {
 }
 
 func (ria *RdsIamAuth) getTokenGenerator(baseCfg *mysql.Config, host string, port int, username string) connectors.GetMysqlConfigCallback {
-
 	if host == "" {
 		panic("no host was provided for connecting to the database")
 	}

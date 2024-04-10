@@ -87,7 +87,6 @@ func GetMysqlGorm(
 	ctx context.Context,
 	input GetMysqlGormInput,
 ) (*gorm.DB, stackerr.Error) {
-
 	if input.WriteDialectorInput.GetMysqlConfigCallback == nil {
 		panic("the `input.WriteDialectorInput.GetMysqlConfigCallback` value must not be nil")
 	}
